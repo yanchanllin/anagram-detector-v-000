@@ -6,7 +6,7 @@ class Anagram
     @word = word
   end
 
-  def match
+  def match(some_word)
       puts "Must find #{self.word} inside the following string:
       #{some_word}"
       # ALL << some_word.match(%w(some_word))
