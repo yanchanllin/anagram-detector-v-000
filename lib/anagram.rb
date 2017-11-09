@@ -1,11 +1,11 @@
 class Anagram
   attr_accessor :word
-  
-  
+
+
   def initialize(word)
     @word = word
   end
-  
+
   def match
     word.detect do |some_word|
       puts "Must find #{self.word} inside the following string:
@@ -16,5 +16,5 @@ class Anagram
       end
     end
   end
-  
+
 end
