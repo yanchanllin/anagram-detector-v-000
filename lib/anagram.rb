@@ -10,7 +10,7 @@ class Anagram
     find_anagram.find_all do |word|
       if word.split("").sort == self.word_to_analyze.split("").sort
         word
-        
+
       end
     end
   end
